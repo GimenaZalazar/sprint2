@@ -1,0 +1,352 @@
+body{
+    margin: 0%; 
+    padding: 0%;
+}
+header{
+    background-color: #ffd24fff;
+    height: 90px;
+    width: 1450px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+}
+.loggo{
+    display: flex;
+}
+.loggo img{
+    height: 170px;
+    width: 130px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 0%;
+}
+a{
+    text-decoration: none;
+    color: #ed174fff;
+    margin-right: 105px;
+    margin-bottom: 0%;  
+    margin-top: 0%;
+}
+.nav-link{
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Young Serif', serif;
+    margin-bottom: 0%;  
+    margin-top: 0%;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #0081c6ff;
+}
+.boton{
+    width: 150px;
+    background-color: #ffd24fff;
+    border: 2px solid #0081c6ff;
+    padding: 10px;
+    color: #ed174fff;
+    font-size: 16px;
+    font-family: 'Young Serif', serif;
+    border-radius: 10px;
+    margin: 0%;
+    font-weight: bold;
+}
+.portadaprogg img{
+    height: 500px;
+    width: 1450px;
+    margin: 0%;
+    border:solid 10px #0081c6ff;
+}
+.mas-pedidos-de-la-semana{
+    text-align: center;
+    font-family: 'Young Serif', serif;
+    font-size: 20px;
+    color: #ed174fff;
+    margin: 0%;
+    background-color: #ffd24fff;
+    padding: 40px;
+}
+.section1{
+    display: flex;
+    background-color: antiquewhite;
+}
+.producto1{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-top: 100px;   
+}
+.producto1 :hover{
+    color: #0081c6ff;
+}
+.rocket-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo1{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.producto2{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 100px;    
+}
+.producto2 :hover{
+    color: #0081c6ff;
+}
+.pulledpork-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo2{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.producto3{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 100px;
+     
+}
+.producto3 :hover{
+    color: #0081c6ff;
+}
+.goatCheese-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo3{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.producto4{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.producto4 :hover{
+    color: #0081c6ff;
+}
+.smokeHouse-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo4{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.section5{
+    display: flex;
+    background-color: antiquewhite;
+}
+.producto5{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.producto5 :hover{
+    color: #0081c6ff;
+}
+.hotDog-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo5{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.producto6{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.producto6 :hover{
+    color: #0081c6ff;
+}
+.rocketDog-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo6{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.producto7{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.producto7 :hover{
+    color: #0081c6ff;
+}
+.chickenTenderClubSandwich-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo7{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.producto8{
+    font-family: 'Young Serif', serif;
+    background-color: #ffd24fff;
+    justify-content: left;
+    padding: 15px;
+    width: 220px;
+    height: 240px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.producto8 :hover{
+    color: #0081c6ff;
+}
+.grilledChickenBreast-img{
+    width: 170px;
+    border-radius: 30px;
+    margin-left: 24px;
+    border:solid 3px #0081c6ff;
+}
+.tituloo8{
+    text-align: center;
+    margin: 0%;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.sectionFinal{
+    background-color: #ffd24fff;
+    height: 400px;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    margin-bottom: 0%;
+    display: flex;
+}
+.loggo2{
+    display: flex;
+}
+.loggo-img2{
+    width: 300px;
+    margin-bottom: 0%;
+
+}
+.conocenoos{
+    font-family: 'Young Serif', serif;
+    color: #ed174fff;
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    font-size: 20px;
+}
+.nose{
+    color: black;
+    display: flex;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 600px;
+    display: flex;
+    text-decoration: underline;
+}
+.redesSociales{
+    color: #ed174fff;
+    font-family: 'Young Serif', serif;
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.nose2{
+    color: black;
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 600px;
+    text-decoration: underline;
+}
