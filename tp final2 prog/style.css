@@ -1,0 +1,819 @@
+body{
+    margin: 0%; 
+    padding: 0%;
+    background-color: rgba(255, 211, 79, 0.418);
+}
+header{
+    background-color:rgba(59, 25, 2, 0.959);
+    height: 50px;
+    width: 1423px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0%;   
+}
+.loggo{
+    display: flex;
+}
+.loggo-img{
+    height: 150px;
+    width: 115px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 225px;
+    margin-bottom: 0px;
+}
+
+.menú1{
+    color: white;
+    text-decoration: none;
+    border-radius: 500px;
+    padding: 2px;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-right: 50px;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100px;
+}
+.promociones1{
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 500px;
+    padding: 6px;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-right: 30px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.delivery1{
+    color: white;
+    text-decoration: none;
+    border-radius: 500px;
+    padding: 6px;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-right: 30px;
+    font-size: 23px;
+    font-weight: bolder;
+    width: 100px;
+    text-align: center;
+}
+.locales1{
+    color: white;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 500px;
+    padding: 6px;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-right: 50px;
+    font-size: 23px;
+    font-weight: bolder;
+    
+}
+.menú1:hover{
+    color: rgba(56, 33, 18, 0.959) ;
+    background-color:#ffd24fff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 6px;
+}
+.promociones1:hover{
+    color: rgba(56, 33, 18, 0.959) ;
+    background-color:#ffd24fff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px;
+}
+.delivery1:hover{
+    color: rgba(56, 33, 18, 0.959) ;
+    background-color:#ffd24fff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px;
+}
+.locales1:hover{
+    color: rgba(56, 33, 18, 0.959) ;
+    background-color:#ffd24fff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px;
+}
+.botoon1{
+    background-color: #ffd24fff;
+    padding: 3px;
+    width: 130px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color:  #ed174fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 180px;
+    font-weight: bolder;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-right: 0%;
+}
+.botoon1:hover{
+    width: 140px;
+    padding: 8px;
+}
+
+.h11{
+    text-align: center;
+}
+h1{
+    position: relative; 
+}
+#mash1::after{
+    content:'';
+    position: absolute;
+    width: 600px;
+    height: 1px;
+    background-color:white;
+    bottom: 1.0em;
+    left: -20px;
+}
+#mash1::before{
+    content:'';
+    position: absolute;
+    width: 650px;
+    height: 1px;
+    background-color: white;
+    bottom: 1.0em;
+    left: 840px;
+}
+.mas-pedidos-de-la-semana{
+    text-align: center;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 40px;
+    margin-top: 0px;
+    text-decoration: underline;
+    margin-bottom: 0%;
+    color: white;
+    padding: 20px;
+    background-color:rgba(59, 25, 2, 0.959);
+    text-decoration: none;
+}
+.section1{
+    display: flex;
+    background-color: rgba(255, 211, 79, 0.418);
+}
+.producto1{
+    justify-content: left;
+    padding: 15px;
+    width: 350px;
+    min-height: 350px;
+    margin-left: 190px;
+    border-radius: 50px;
+    margin-top: 50px;    
+    margin-bottom: 0px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.pulledpork-img:hover{
+    transform: scale(1.1);
+}
+.pulledpork-img{
+    width: 250px;
+    margin-left: 47px;
+    border-radius: 60px;
+    box-shadow: black 5px 7px 15px;
+    background-color: rgba(255, 211, 79, 0.048);
+}
+.tituloo1{
+    text-align: center;
+    margin-top: 15px;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    margin-left: 18px;
+    font-weight: bold;
+}
+.producto2{
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: 0,5s;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.goatCheese-img:hover{
+    transform: scale(1.1);
+}
+.goatCheese-img{
+    width: 250px;
+    border-radius: 60px;
+    margin-left: 47px;
+    box-shadow: black 5px 7px 15px;
+    background-color: rgba(255, 211, 79, 0.048);
+}
+.tituloo2{
+    text-align: center;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.producto3{
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.smokeHouse-img:hover{
+    transform: scale(1.1);
+}
+.smokeHouse-img{
+    width: 250px;
+    border-radius: 60px;
+    margin-left: 47px;
+    box-shadow: black 5px 7px 15px;
+    background-color: rgba(255, 211, 79, 0.048);
+}
+.tituloo3{
+    text-align: center;
+    margin-top: 15px;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.section3{
+    display: flex;
+    background-color: rgba(255, 211, 79, 0.418);   
+}
+.producto7{   
+    justify-content: left;
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    margin-left: 190px;
+    border-radius: 50px;
+    margin-top: 0px;    
+    margin-bottom: 0px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.guacamoleCrunch-img:hover{
+    transform: scale(1.1);
+}
+.guacamoleCrunch-img{
+    width: 250px;
+    margin-left: 47px;
+    border-radius: 60px;
+    box-shadow: black 5px 7px 15px;
+    background-color: rgba(255, 211, 79, 0.048);   
+}
+.tituloo7{
+    text-align: center;
+    margin-top: 15px;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    margin-left: 18px;
+    font-weight: bold;
+}
+.producto8{
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 0px;
+    transition: 0,5s;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.spicyRanch-img:hover{
+    transform: scale(1.1);
+}
+.spicyRanch-img{
+    width: 250px;
+    border-radius: 60px;
+    margin-left: 47px;
+    box-shadow: black 5px 7px 15px;
+    background-color: rgba(255, 211, 79, 0.048);
+}
+.tituloo8{
+    text-align: center;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.producto9{
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 0px;
+    transition: 0,5s;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.crispy3quesos-img:hover{
+    transform: scale(1.1);
+}
+.crispy3quesos-img{
+    width: 250px;
+    border-radius: 60px;
+    margin-left: 47px;
+    box-shadow: black 5px 7px 15px;
+    background-color: rgba(255, 211, 79, 0.048);
+}
+.tituloo9{
+    text-align: center;
+    margin-top: 15px;
+    color: #ed174fff;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Young Serif', serif;
+    font-weight: bold;
+    margin-left: 25px;
+}
+#proh1::after{
+    content:'';
+    position: absolute;
+    width: 600px;
+    height: 1px;
+    background-color: white;
+    bottom: 1.0em;
+    left: -70px;
+}
+#proh1::before{
+    content:'';
+    position: absolute;
+    width: 650px;
+    height: 1px;
+    background-color: white;
+    bottom: 1.0em;
+    left: 885px;
+}
+.promocioness{
+    background-color: rgba(255, 211, 79, 0.418);   
+}
+.promociones-titulo{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin: 0%;
+    background-color: rgb(56, 33, 18);
+    font-family: 'Alfa Slab One', serif;
+    text-decoration: none;   
+}
+.promocionesss{
+    display: flex;
+    background-color: rgba(255, 211, 79, 0.418);
+}
+.promocionNumero1-img{
+    width: 350px;
+    margin-left: 280px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    box-shadow: black 5px 7px 15px;
+    margin-right: -80px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.promocionNumero1-img:hover{
+    transform: scale(1.1);
+}
+.promocionNumero2-img{
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    margin-right: -80px;
+    box-shadow: black 5px 7px 15px;
+    transition: 0,5s;
+    object-fit: cover;   
+}
+.promocionNumero2-img:hover{
+    transform: scale(1.1);
+}
+.promocionNumero3-img{
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    box-shadow: black 5px 7px 15px;
+    transition: 0,5s;
+    object-fit: cover;   
+}
+.promocionNumero3-img:hover{
+    transform: scale(1.1);
+}
+#deli::after{
+    content:'';
+    position: absolute;
+    width: 600px;
+    height: 1px;
+    background-color:white;
+    bottom: 1.0em;
+    left: -20px;
+
+}
+#deli::before{
+    content:'';
+    position: absolute;
+    width: 650px;
+    height: 1px;
+    background-color: white;
+    bottom: 1.0em;
+    left: 840px;
+}
+.delivery-titlee{
+    text-align: center;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 40px;
+    margin-top: 0px;
+    text-decoration: underline;
+    margin-bottom: 0%;
+    color: white;
+    padding: 20px;
+    background-color:rgba(59, 25, 2, 0.959);
+    text-decoration: none;
+}
+.sectionServicio{
+    background-color: rgba(255, 211, 79, 0.418);   
+}
+.delivery-weapper{
+    background-color: rgb(216, 50, 0);
+    height:600px ;   
+}
+.chica-bite{
+    margin-left: 650px;
+}
+.chica-bite-img{
+    width: 717px;
+}
+.delivery{
+    background-color:white;
+    border-radius: 10px;
+    width: 500px;
+    height: 280px;
+    margin-left: 110px;
+    margin-top: -550px;
+    border: 1px solid rgba(56, 33, 18, 0.959);
+}
+.delivery__title{
+    font-size: 35px;
+    font-family: 'Alfa Slab One', serif;
+    text-align: center;
+    color: rgba(56, 33, 18, 0.959);
+}
+.delivery__text{
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: rgba(56, 33, 18, 0.959);
+    font-weight: bolder;
+}
+.pill-container{
+    margin-left: 20px;   
+}
+.pill{
+    margin-top: 5px;
+    width: 150px;
+    border-radius: 7px;
+    border: none;   
+    background-color: rgba(190, 192, 194, 0.384);
+}
+.pill-img1{
+    width: 150px;
+    padding: 23px;
+}
+.pill-img2{
+    width: 100px;
+    padding: 20px;
+}
+.pill:focus{
+    border: #ed174fff 3px solid;
+}
+.pill-selected{
+    width: 150px;
+    border-radius: 7px;
+    border: none;
+    background-color:  rgba(190, 192, 194, 0.384);   
+}
+.pill-selected:focus{
+    border: #ed174fff 3px solid;
+}
+.pill-selected-img{
+    width: 150px;
+    padding: 14px;
+}
+.button{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 300px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: #ffd24fff;
+    border: #0081c6ff 2px solid;
+    font-size: 18px;
+    color: #ed174fff ;
+    font-weight: bolder;
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 150px;
+}
+.button:hover{
+    color: #ffd24fff ;
+    background-color: #ed174fff;
+    padding: 5px;
+}
+.sectionFinal{
+    background-color: rgba(59, 25, 2, 0.959);;
+    height: 550px;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    margin-bottom: 0%;
+    display: flex;
+}
+.loggo2{
+    display: flex;
+}
+.loggo-img2{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 0%;
+    margin-left: 50px;
+}
+.conocenoos{
+    font-family: 'Alfa Slab One', serif;
+    color: #ffd24fff;
+    display: flex;
+    margin-left: 780px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.nose{
+    color: white;
+    display: flex;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 780px;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+}
+.nose:hover{
+    color: #ffd24fff;
+    font-weight: bolder ;
+}
+.conocenoos{
+    position: relative;
+}
+.conocenoos::after{
+    content:'';
+    position: absolute;
+    width: 1270px;
+    height: 1px;
+    background-color: white;
+    top: 13.0em;
+    left: -1050px;
+}
+.instagram-img{
+    width: 30px;
+    margin-left: 750px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+}
+.instagram-img:hover{
+    width: 40px;
+}
+.facebook-img{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+}
+.facebook-img:hover{
+    width: 40px;
+}
+.twitter-img{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+}
+.twitter-img:hover{
+    width: 40px;
+}
+.youtube-img{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+}
+.youtube-img:hover{
+    width: 40px;
+}
+
+@media (max-width:700px){
+    
+    .loggo-img{
+        height: 100px;
+        width: 80px;
+        margin-top: 20px;
+        margin-left: -40px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .menú1{
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .promociones1{
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .delivery1{
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .locales1{
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .botoon1{
+        width: 100px;
+        font-size: 19px;
+        margin-left: 0px;
+    }
+    .botoon1:hover{
+        width: 110px;
+        padding: 5px;
+    }
+    #mash1::after{
+        left: -370px;
+    }
+    #mash1::before{
+        left: 450px;
+    }
+    .producto1{
+        margin-left: 0px;
+    }
+    .pulledpork-img{
+        width: 150px;
+        margin-left: 30px;
+        border-radius: 40px;
+    }
+    .tituloo1{
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .goatCheese-img{
+        width: 150px;
+        border-radius: 40px;
+        margin-left: 35px;
+    }
+    .tituloo2{
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .smokeHouse-img{
+        width: 147px;
+        border-radius: 40px;
+        margin-left: 30px;
+    }
+    .tituloo3{
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .producto7{   
+        margin-left: 0px;
+        margin-top: -150px;
+    }
+    .guacamoleCrunch-img{
+        width: 148px;
+        margin-left: 30px;
+        border-radius: 40px; 
+    }
+    .tituloo7{
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .producto8{   
+        margin-top: -150px;
+    }
+    .spicyRanch-img{
+        width: 155px;
+        border-radius: 40px;
+        margin-left: 30px;
+    }
+    .tituloo8{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .producto9{   
+        margin-top: -150px;
+    }
+    .crispy3quesos-img{
+        width: 155px;
+        border-radius: 40px;
+        margin-left: 30px;
+    }
+    .tituloo9{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    #deli::after{
+        left: -400px;
+    }
+    #deli::before{
+        left: 440px;
+    }
+    .delivery-weapper{
+        height:375px ;   
+    }
+    .chica-bite{
+        margin-left: none;
+    }
+    .chica-bite-img{
+        width: none;
+    }
+    .delivery{
+        margin-left: 90px;
+        margin-top: -650px;
+    }
+    .delivery__title{
+        font-size: 25px;
+    }
+    .delivery__text{
+        font-size: 18px;
+    }
+    #proh1::after{
+        left: -450px;
+    }
+    #proh1::before{
+        left: 490px;
+    }
+    .promocionNumero1-img{
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .promocionNumero2-img{
+        width: 250px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .promocionNumero3-img{
+        width: 250px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .sectionFinal{
+        height: 450px;
+    }
+    .loggo-img2{
+        width: 110px;
+        height: 140px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .conocenoos{ 
+        margin-left: 300px;
+    }
+    .nose{
+        margin-left: 300px;
+    }
+    .conocenoos::after{
+        left: -400px;
+    }
+    .instagram-img{
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+    
+} 
+
+

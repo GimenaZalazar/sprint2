@@ -1,0 +1,102 @@
+body{
+    
+    background-image: url(https://i.pinimg.com/originals/b7/7c/51/b77c5171d64afdc0f1a7cab1dc8b840b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.form-register {
+    width: 350px;
+    background-color: #ffd24fff;
+    padding: 50px;
+    margin-left: 500px;
+    font-family: 'Staatliches', sans-serif;
+    color: #ed174fff;
+    border: 3px solid #0081c6ff;
+    border-radius: 30px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.form-register h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.controls {
+    width: 85%;
+    background-color: rgb(236, 193, 62);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 19px;
+    border: 3px solid #0081c6ff;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 17px;
+    
+    
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Instrument Sans', sans-serif;
+    
+}
+
+.form-register a{
+    color: #ed174fff;
+    text-decoration: underline;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.botons{
+    
+    background-color: #ed174fff;
+    border: none;
+    padding: 20px;
+    width: 80%;
+    font-size: 30px;
+    font-family: 'Staatliches', sans-serif;
+    border: 2px solid #0081c6ff;
+    border-radius: 20px;
+    margin-left: 30px;
+    text-align: center;
+    
+    
+}
+#botons1{
+    color: white;
+    text-decoration: none;
+    margin-left: 120px;
+    width: 500px;
+    
+
+}
+.botons:hover{
+    background-color: #0081c6ff;
+}
+
+.form-register h2{
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0%;
+    color: #0081c6ff;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.bigSize{
+    font-size: 20px;
+}
